@@ -12,6 +12,6 @@ int main() {
         }
     }
     
-    if(flag==true) cout<<"prime";
-    else cout<<"composite";
-        }
+   if(n==1) cout<<"neither prime nor composite";
+else if(flag==true) cout<<"prime";
+else cout<<"composite";
